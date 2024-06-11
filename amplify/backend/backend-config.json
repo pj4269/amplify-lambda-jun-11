@@ -1,5 +1,19 @@
 {
   "api": {
+    "apijune11": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifylambdajun11"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    },
     "myRestApi": {
       "dependsOn": [
         {

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/getPerson": {
+      "name": "/getPerson",
+      "lambdaFunction": "amplifylambdajun11",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/createPerson": {
+      "name": "/createPerson",
+      "lambdaFunction": "amplifylambdajun11",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/gettestPerson": {
+      "name": "/gettestPerson",
+      "lambdaFunction": "amplifylambdajun11",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,10 +1,10 @@
 import json
-'''
-def handler(event, context):
+
+def my_handler(event, context):
   print('received event:')
   print(event)
   
-  return {
+  response = {
       'statusCode': 200,
       'headers': {
           'Access-Control-Allow-Headers': '*',
@@ -13,8 +13,11 @@ def handler(event, context):
       },
       'body': json.dumps('Hello from your new Amplify Python lambda!')
   }
-'''  
   
+  return response['body']
+  
+
+'''  
 def customer_handler(event, context):
   print(event)
   customerId = event['pathParameters']['customerId']  # API: /customers/123 => 123 becomes customerId
@@ -29,3 +32,4 @@ def customer_handler(event, context):
 		'body': json.dumps(customer)
     }
   return response  
+'''  

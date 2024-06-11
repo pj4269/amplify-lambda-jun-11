@@ -15,11 +15,12 @@
       "function": {
         "amplifylambdajun11": {
           "deploymentBucketName": "amplify-amplifylambdajun11-dev-73358-deployment",
-          "s3Key": "amplify-builds/amplifylambdajun11-6d363373316341794f68-build.zip"
+          "s3Key": "amplify-builds/amplifylambdajun11-59324d786d3865735673-build.zip"
         }
       },
       "api": {
-        "myRestApi": {}
+        "myRestApi": {},
+        "apijune11": {}
       }
     }
   }
