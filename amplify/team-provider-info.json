@@ -10,6 +10,17 @@
       "StackName": "amplify-amplifylambdajun11-dev-73358",
       "StackId": "arn:aws:cloudformation:us-west-2:711141261525:stack/amplify-amplifylambdajun11-dev-73358/a47c5490-27ff-11ef-b55b-027afb72111d",
       "AmplifyAppId": "ddvu7jl6zebay"
+    },
+    "categories": {
+      "function": {
+        "amplifylambdajun11": {
+          "deploymentBucketName": "amplify-amplifylambdajun11-dev-73358-deployment",
+          "s3Key": "amplify-builds/amplifylambdajun11-6d363373316341794f68-build.zip"
+        }
+      },
+      "api": {
+        "myRestApi": {}
+      }
     }
   }
 }

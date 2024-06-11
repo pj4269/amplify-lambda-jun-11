@@ -1,1 +1,43 @@
-{}
+{
+  "api": {
+    "myRestApi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifylambdajun11"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifylambdajun11": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifylambdajun11_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifylambdajun11"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifylambdajun11_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifylambdajun11"
+        }
+      ]
+    }
+  }
+}
